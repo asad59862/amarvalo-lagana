@@ -46,18 +46,18 @@ const tody = document.getElementById("date");
 const d = new Date();
 tody.innerHTML = d.toDateString();
 
-// discover
-// const question = document.getElementById("discover");
-// question.addEventListener('click', function () {
-//   window.location.href= "./questionPage.html";
-// })
+discover
+const question = document.getElementById("discover");
+question.addEventListener('click', function () {
+  window.location.href= "./questionPage.html";
+})
 
 
-// backToDesk
-// const back = document.getElementById("backToDesk");
-// back.addEventListener('click', function () {
-//   window.location.href = "./index.html";
-// })
+backToDesk
+const back = document.getElementById("backToDesk");
+back.addEventListener('click', function () {
+  window.location.href = "./index.html";
+})
 
 
 
